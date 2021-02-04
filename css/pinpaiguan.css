@@ -1,0 +1,386 @@
+/* 头部开始 */
+/* 头部结束 */
+
+/* 广告图开始 */
+.ppgbanner {
+  width: 100%;
+  height: 430px;
+  overflow: hidden;
+  /* background-color: gold; */
+}
+
+.ppgbanner .banner {
+  width: 1920px;
+  height: 430px;
+  background-color: #999999;
+  margin: 0 auto;
+  position: relative;
+}
+
+.ppgbanner .banner .banner-nav {
+  height: 15px;
+  width: 120px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+}
+
+.ppgbanner .banner .banner-nav a {
+  display: block;
+  width: 50px;
+  height: 10px;
+  background: gray;
+  float: left;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+.ppgbanner .banner .banner-content {
+  width: 1920px;
+  height: 430px;
+  overflow: hidden;
+  font-size: 0;
+}
+.ppgbanner .banner .banner-content div {
+  width: 1920px;
+  height: 430px;
+  text-align: center;
+  line-height: 430px;
+}
+.ppgbanner .banner .banner-content div img {
+  width: 1920px;
+  height: 430px;
+}
+/* 广告图结束 */
+
+/* 商标开始 */
+.ppglogo {
+  width: 100%;
+  height: 280px;
+  background-color: #cfd2d8;
+}
+
+.ppglogo .logo {
+  width: 1200px;
+  height: 280px;
+  background-color: #cfd2d8;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.ppglogo .logo ul {
+  width: 1052px;
+  height: 133px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  overflow: hidden;
+}
+
+.ppglogo .logo ul li {
+  width: 133px;
+  height: 133px;
+  position: relative;
+  text-align: center;
+  background-color: #fff;
+  float: left;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.ppglogo .logo ul li:nth-child(7n) {
+  margin-right: 0;
+}
+
+.ppglogo .logo ul li img {
+  width: 70px;
+  height: 70px;
+  margin-top: 31px;
+}
+
+.ppglogo .logo ul li p {
+  width: 133px;
+  height: 133px;
+  text-align: center;
+  background-color: #fff;
+  line-height: 133px;
+  font-size: 16px;
+  color: #dc942e;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.ppglogo .logo ul li:hover .ppgp {
+  display: block;
+}
+
+/* 商标结束 */
+
+/* 人气商品开始 */
+.ppgwatch {
+  width: 100%;
+  min-height: 460px;
+  background-color: #fff;
+  height: auto;
+}
+
+.watch {
+  width: 1200px;
+  min-height: 420px;
+  background-color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 40px;
+  height: auto;
+}
+
+.watch h4 {
+  font-size: 26px;
+  color: #333;
+  font-weight: 700;
+}
+
+.watch h5 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #9999a5;
+}
+
+.watch .watch1 {
+  margin: 10px auto;
+  width: 30px;
+  height: 2px;
+  border-bottom: solid 2px #9999a5;
+}
+
+.watch .watch2 {
+  width: 1030px;
+  height: 240px;
+  margin: 30px auto;
+}
+
+.watch .watch2 ul {
+  width: 1030px;
+  height: 240px;
+}
+
+.watch .watch2 ul li {
+  width: 167px;
+  height: 240px;
+  float: left;
+  margin-left: 35px;
+  border: solid 1px transparent;
+}
+
+.watch .watch2 ul li img {
+  width: 120px;
+  height: 160px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  transition: 0.5s linear;
+}
+
+.watch .watch2 ul li:hover img {
+  transform: scale(1.1);
+}
+
+.watch .watch2 ul li .p1 {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.watch .watch2 ul li .p2 {
+  font-size: 12px;
+  color: #333333;
+}
+
+.watch .watch2 ul li:hover {
+  border: solid 1px #dadada;
+}
+
+.watch-button {
+  width: 100px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.watch-button p {
+  font-size: 14px;
+  color: #999999;
+}
+
+.watch-button .watch-button-sjx {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.watch-button:hover .ppgwatch-hid {
+  display: block;
+}
+
+/* 人气商品结束 */
+.ppgwatch-hid {
+  width: 1030px;
+  height: 240px;
+  margin: 30px auto;
+  display: none;
+}
+
+.ppgwatch-hid ul {
+  width: 1030px;
+  height: 240px;
+  text-align: center;
+}
+
+.ppgwatch-hid ul li {
+  width: 170px;
+  height: 240px;
+  float: left;
+  margin-left: 35px;
+}
+
+.ppgwatch-hid ul li img {
+  width: 120px;
+  height: 160px;
+  margin-bottom: 20px;
+  transition: 1s linear;
+}
+
+.ppgwatch-hid ul li:hover img {
+  transform: scale(1.2);
+}
+
+.ppgwatch-hid ul li .p1 {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.ppgwatch-hid ul li .p2 {
+  font-size: 12px;
+  color: #333333;
+}
+
+.ppgwatch-hid ul li:hover {
+  border: solid 1px #dadada;
+}
+
+/* 人气店铺开始 */
+.ppghot {
+  width: 100%;
+  min-height: 700px;
+  height: auto;
+  background-color: #f1f1f1;
+}
+
+.hot {
+  height: auto;
+  width: 1200px;
+  min-height: 700px;
+  background-color: #f1f1f1;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.hot h4 {
+  font-size: 26px;
+  color: #333;
+  font-weight: 700;
+}
+
+.hot h5 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #9999a5;
+}
+
+.hot .hot1 {
+  margin: 10px auto;
+  width: 30px;
+  height: 2px;
+  border-bottom: solid 2px #9999a5;
+}
+
+.hot .hot-down {
+  width: 1200px;
+  min-height: 700px;
+  height: auto;
+  overflow: hidden;
+}
+
+.hot .hot-down ul {
+  width: 1200px;
+  min-height: 700px;
+  height: auto;
+  margin-top: 60px;
+}
+
+.hot .hot-down ul li {
+  width: 370px;
+  height: 330px;
+  float: left;
+  margin-left: 10px;
+  background-color: #fff;
+  margin-right: 25px;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hot .hot-down ul li .shadow {
+  width: 370px;
+  height: 330px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: 1s;
+}
+
+.hot .hot-down ul li:hover .shadow {
+  top: -330px;
+}
+
+.hot .hot-down ul li:nth-child(3n) {
+  margin-right: 0;
+}
+
+.hot .hot-down ul li img:nth-child(1) {
+  width: 70px;
+  height: 70px;
+}
+
+.hot .hot-down ul li img:nth-child(2) {
+  width: 363px;
+  height: 142px;
+}
+
+.hot .hot-down ul li h4 {
+  font-size: 14px;
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.hot .hot-down ul li p {
+  font-size: 12px;
+  color: #999;
+  text-align: left;
+  line-height: 20px;
+}
+
+/* 人气店铺结束 */
+
+/* 底部 */

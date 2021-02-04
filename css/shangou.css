@@ -1,0 +1,177 @@
+/* 广告区开始 */
+.bannerx{
+	height: 500px;
+	background: #fff;
+	overflow: hidden;
+}
+.bannerx img{
+	display: block;
+	width: 1262px;
+	height: 500px;
+	margin: 0 auto;
+}
+/* 广告区结束 */
+/* 第三块开始 */
+.disanx{
+	height: 80px;
+	background: #fff;
+}
+.disan{
+	width: 1200px;
+	height: 80px;
+	margin: 0 auto;
+	background: #f1f1f1;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.disan1{
+	width: 184px;
+	height: 44px;
+}
+.disan11{
+	width:44px;
+	height:44px;
+	border-radius: 50%;
+	border: 1px solid red;
+	box-sizing: border-box;
+	position: relative;
+	float: left;
+}
+.disan11 p{
+	width: 20px;
+	height: 20px;
+	font-size:20px ;
+	line-height: 20px;
+	color: red;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.disan1 span{
+	display: block;
+	height: 44px;
+	font-size:16px;
+	line-height: 44px;
+	color: #000;
+	float: left;
+}
+/* 第三块结束 */
+/* 第四块开始 */
+.disix{
+	background: #fff;
+	overflow: hidden;
+}
+.disix p{
+	width:1200px;
+	height:80px;
+	font-size: 36px;
+	color: #000;
+	text-align: center;
+	background: #f1f1f1;
+	line-height: 80px;
+	margin-top: 10px;
+}
+.disi{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.disi1 {
+	width: 595px;
+	height: 220px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.disi1:nth-child(2n){
+	width: 595px;
+	height: 220px;
+	margin-top: 10px;
+	margin-left: 0px;
+}
+.disi1 a{
+	width: 595px;
+	height: 220px;
+}
+/* 第四块结束 */
+/* 第五块开始 */
+.diwux{
+	background: #fff;
+	overflow: hidden;
+}
+.diwu{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.diwu .p0{
+	width:1200px;
+	height:80px;
+	font-size: 36px;
+	color: #000;
+	text-align: center;
+	background: #f1f1f1;
+	line-height: 80px;
+	margin-top: 10px;
+}
+.diwu1{
+	width:220px;
+	height:425px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 52px;
+	position: relative;
+}
+.diwu1:nth-child(4n-6){
+	width:220px;
+	height:425px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 82px;
+	position: relative;
+}
+.diwu1 img{
+	width:220px;
+	height:275px;
+}
+.diwu1 h2{
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.diwu1 .p1{
+	font-size: 12px;
+	color: #666;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.diwu1 .p2{
+	width: 40px;
+	height: 14px;
+	text-align: center;
+	line-height: 14px;
+	font-size: 12px;
+	color: #999;
+	position: absolute;
+	bottom: 130px;
+	right: 5px;
+}
+.diwu1 .p3{
+	width: 40px;
+	height: 22px;
+	font-size: 12px;
+	color: goldenrod;
+	text-align: center;
+	line-height: 22px;
+	border-radius: 20px;
+	border: 1px solid goldenrod;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+/* 第五块结束 */

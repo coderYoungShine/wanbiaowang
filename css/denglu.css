@@ -1,0 +1,149 @@
+.style_com{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container_1{
+    height: 125px;
+    line-height: 125px;
+}
+.header a{
+    display: block;
+    margin-left: 110px;
+
+}
+.header img{
+    vertical-align: middle;
+}
+
+.container_2{
+    height: 580px;
+    overflow: hidden;
+}
+.banner{
+    height: 580px;
+    position: relative;f
+}
+.banner >img{
+    height: 580px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.banner .box{
+    width: 380px;
+    height: 460px;
+    background: #ffffff;
+    position: absolute;
+    top: 50px;
+    right: 97px;
+}
+.box div:nth-of-type(1){
+    width: 216px;
+    height: 24px;
+    display: flex;
+    margin: 41px auto 33px;
+    text-align: center;
+    line-height: 24px;
+}
+.box div:nth-of-type(1) a{
+    display: block;
+    width: 108px;
+    height: 24px;
+    font-size: 18px;
+}
+.box div:nth-of-type(1) a:nth-of-type(1){
+    border-right: 1px solid #dddddd;
+    color: #cc5252;
+}
+.box div:nth-of-type(1) a:nth-of-type(2){
+    color: #808080;
+}
+.box input{
+    height: 44px;
+    border: 1px solid #dddddd;
+    padding-left: 10px;
+    margin-left: 40px;
+}
+.box >input:nth-of-type(1){
+    width: 300px;
+    margin-bottom: 20px;
+}
+.box input::placeholder{
+    font-size: 12px;
+    color: #ccc;
+}
+.box div:nth-of-type(2){
+    display: flex;
+}
+.box div:nth-of-type(2) input{
+    width: 200px;
+    margin-bottom: 12px;
+}
+.box div:nth-of-type(2) img{
+    width: 96px;
+    height: 44px;
+    border: 1px solid #dddddd;
+    margin-left: 4px;
+    cursor: pointer;
+}
+/* .box div:nth-of-type(2) img:hover{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .5);
+} */
+.box div:nth-of-type(3) input:nth-of-type(1){
+    width: 200px;
+    margin-bottom: 12px;
+}
+.box div:nth-of-type(3) input:nth-of-type(2){
+    width: 96px;
+    margin-left: 0;
+    color: #ffffff;
+    font-size: 12px;
+    padding-left: 0;
+    background: #b1b1b1;
+    cursor: pointer;
+}
+/* .box div:nth-of-type(3) input:nth-of-type(2):hover{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .5);
+} */
+.box >input:nth-of-type(2){
+    width: 300px;
+    background: #cc5252;
+    margin-bottom: 16px;
+    text-align: center;
+    padding-left: 0;
+    cursor: pointer;
+}
+/* .box >input:nth-of-type(2):hover{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .5);
+} */
+.box >input:nth-of-type(2)::placeholder{
+    font-size: 18px;
+    color: #ffffff;
+}
+.box p:nth-of-type(1){
+    font-size: 12px;
+    color: #999999;
+    margin: 0 0 65px 40px;
+    cursor: pointer;
+}
+.box p:nth-of-type(2){
+    font-size: 16px;
+    color: #999999;
+    margin-left: 187px;
+    cursor: pointer;
+
+}
+
+
+.container_3{
+    height: 160px;
+    text-align: center;
+    padding-top: 52px;
+}
+.footer p{
+    font-size: 12px;
+    color: #999999;
+    line-height: 20px;
+}

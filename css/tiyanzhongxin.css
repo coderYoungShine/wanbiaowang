@@ -1,0 +1,277 @@
+.comstyle{
+	width: 1200px;
+	margin: 0 auto;
+}
+h2{
+	height: 28px;
+	font-size: 28px;
+	padding:20px 0;
+	margin-top: 58px;
+	line-height: 28px;
+	color: #333333;
+}
+.span0{
+	color: #999999;
+	font-size: 14px;
+	padding-left: 16px;
+	vertical-align: middle;
+}
+
+
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 460px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.banner img{
+	width: 100%; 
+	height: 460px;
+}
+/* banner结束 */
+
+
+
+
+/* 零售区开始 */
+.t-retail{
+	height: 563px;
+	background-color: #ffffff;
+}
+.retail{
+	height: 563px;
+	background-color: #ffffff;
+	overflow: hidden;
+}
+/* 零售区结束 */
+
+
+
+
+/* 优势区开始 */
+.t-advantage{
+	height: 466px;
+	background-color:#ffffff;
+}
+.advantage{
+	height: 466px;
+	background-color:#ffffff;
+	overflow: hidden;
+}
+.advantage-nav{
+	width: 1200px;
+	height: 45px;
+	background-color: #f1f1f1;
+	padding-left: 82px;
+	padding-right: 102px;
+	box-sizing: border-box;
+	background-color: #f1f1f1;
+	margin-bottom: 15px;
+}
+.advantage-nav li {
+	float: left;
+	width: 126px;
+	height: 45px;
+}
+.advantage-nav li a{
+	display: block;
+	width: 126px;
+	height: 45px;
+	color: #666666;
+	float: left;
+	text-align: center;
+	line-height: 45px;
+}
+.advantage-nav li a:hover{
+	background-color: #ccaa7a;
+}
+.advantage-bottom{
+	width: 1200px;
+	height: 282px;
+}
+.advantage-bottom-left{
+	width: 590px;
+	height: 282px;
+	float: left;
+	margin-right: 20px;
+}
+.advantage-bottom-right{
+	width: 590px;
+	height: 282px;
+	float: left;
+	background-color: #f1f1f1;
+	padding: 70px 94px 0px 102px;
+	box-sizing: border-box;
+}
+.advantage-bottom-right h3{
+	font-size: 20px;
+	color: #343434;
+	margin-bottom: 30px;
+}
+.advantage-bottom-right p{
+	color: #666666;
+	font-size: 12px;
+	line-height: 24px;
+}
+/* 优势区结束 */
+
+
+
+
+/* 招商区开始 */
+.t-zhaoshang{
+	height: 467px;
+	background-color:#ffffff;
+}
+.zhaoshang{
+	height: 467px;
+	background-color:#ffffff;
+	font-size: 0;
+	overflow: hidden;
+}
+.zhaoshang a:nth-of-type(1){
+	margin-right: 22px;
+}
+/* 招商区结束 */
+
+
+
+
+/* 体验区开始 */
+.t-experience{
+	height: 766px;
+	background-color:#ffffff;
+}
+.experience{
+	height: 766px;
+	background-color:#ffffff;
+	overflow: hidden;
+}
+.experience-left{
+	float: left;
+	width: 590px;
+	height: 627px;
+	margin-right: 20px;
+}
+.experience-left-top{
+	width: 590px;
+	height: 102px;
+	box-sizing: border-box;
+	border: 1px solid #dddddd;
+	padding-left: 114px;
+	padding-top: 56px;
+	background-color:#FFFFFF ;
+}
+.experience-left-top input{
+	border: 0;
+	outline: none;
+	height: 24px;
+	width: 330px;
+	border-bottom: 1px solid #dddddd;
+	float: left;
+}
+.experience-left-top button{
+	width: 24px;
+	height: 24px;
+	background: url(../img/search.png) no-repeat;
+	border: 0;
+	outline: none;
+	float: left;
+}
+.experience-left-top input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    font-size:12px;
+    color: #cccccc;
+}
+.experience-left-top input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    font-size:12px;
+    color: #cccccc;
+}
+.experience-left-top input:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    font-size:12px;
+    color: #cccccc;
+}
+.experience-left-bottom{
+	width: 590px;
+	height: 525px;
+	overflow: auto;
+}
+.experience-left-bottom div{
+	width: 573px;
+	height: 175px;
+	padding-left: 44px;
+	padding-top: 51px;
+	box-sizing: border-box;
+	position: relative;
+}
+.experience-left-bottom div:nth-child(2n-1){
+	background-color: #f1f1f1;
+}
+.experience-left-bottom div:nth-child(2n){
+	background-color: #fafafa;
+}
+.experience-left-bottom div h3{
+	margin-bottom: 25px;
+	font-size: 16px;
+	color: #666666;
+	width: 250px;
+}
+.experience-left-bottom div p{
+	color: #666666;
+	font-size: 12px;
+	line-height: 20px;
+	width: 350px;
+}
+.experience-left-bottom div a{
+	display: block;
+	width: 104px;
+	height: 37px;
+	border-radius:4px;
+	border: 1px solid #cccccc;
+	font-size: 12px;
+	color: #666666;
+	line-height: 37px;
+	text-align: center;
+	position: absolute;
+	top: 80px;
+	right: 40px;
+	
+}
+.experience-left-bottom div a img{
+	vertical-align: middle;
+}
+.experience-right{
+	width: 590px;
+	height: 580px;
+	float: right;
+	position: relative;
+	overflow: hidden;
+}
+.experience-right .circle a{
+	float: left;
+	display:inline-block;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	margin: 0 4px;
+	background-color: #cfcdc7;	
+
+}
+.experience-right .circle{
+	position: absolute;
+	bottom: 10px;
+	left:50%;
+	transform: translateX(-50%);
+}
+.experience-right .img{
+	width: 590px;
+	height: 580px;
+	overflow: hidden;
+}
+#img1,#img2,#img3,#img4{
+	display: block;
+}
+/* 体验区结束 */
